@@ -1,1 +1,3 @@
-https://github.com/shanchuan1/CustomWebpack.git
+export default (a,b)=>{
+    return a+b;
+}

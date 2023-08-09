@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/shanchuan1/CustomWebpack/issues"
   },
-  "homepage": "https://github.com/shanchuan1/CustomWebpack#readme"
+  "homepage": "https://github.com/shanchuan1/CustomWebpack#readme",
+  "dependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/parser": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/traverse": "^7.22.10"
+  }
 }

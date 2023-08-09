@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./src/index.js"></script>
+    <!-- <script src="./src/index.js"></script> -->
+    <!--报错 因为浏览器不会识别执行require和exports， import等ES6语法-->
+
+    <script src="./dist/bundle.js"></script>
+    <!-- 经过webpack打包编译处理后兼容浏览器可以识别执行 -->
 </body>
 </html>
